@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="LJ.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Lahden Suo- ja Lumijalkapallokerho LasiJalat</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+ 
+<body>
+    <form runat="server">
+    
+        <div id="page">
+            <div class="title">
+                Lahden Suo- ja Lumijalkapallokerho LasiJalat 
+            </div>
+       
+            <div id="navigation">
+                <ul>
+                    <li><a href="Home.aspx">Home</a></li>
+                    <li><a href="Roster.aspx">Roster</a></li>
+                    <li><a href="Alamämmi.aspx">Alamämmi</a></li>
+                    <li><a href="Game.aspx">Game</a></li>
+                    <li><a href="AboutClub.aspx">About club</a></li>
+                    <li><a href="WebShop.aspx">Web shop</a></li>
+                    <li><a id="last_nav_link" href="Forum.aspx">Forum</a></li>
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+            
+            <div id="content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+            </div>
+              
+            <div id="footer">
+                Lahden Suo- ja Lumijalkapallokerho LasiJalat | email:public@LahdenLasijalat.fi | contatc us: (toll free)880-990-1100
+            </div>
+        </div>
+      </form>
+      
+  </body>
+</html>

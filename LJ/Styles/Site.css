@@ -1,0 +1,371 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+html,body   
+{
+   
+    background:  #393939;
+    color:white;
+    height: 100%;
+    margin:0;
+    padding:0;
+   }
+   
+   body
+   {
+    font-size: .80em;
+    font-family: Tahoma,arial, Sans-Serif;
+    font-size:12px;
+      
+}
+a{
+    color: #DC143C;
+    text-decoration: none;
+}
+p {
+    line-height: 170%;
+    font-size: 13px;
+    padding: 5px 0px 5px 0px;
+}
+h1 {
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    line-height:1.5;
+    padding: 5px 0px 5px 0px;
+}
+h2 {
+    font-size:20px;
+    color:#DC143C;
+    line-height:1.5;
+    padding: 5px 0px 5px 0px;
+}
+
+.title
+{
+    background-image:url(http://thumbs.dreamstime.com/thumblarge_132/11744021548SGw40.jpg);
+    padding: 25px 0px 20px 0px;
+    font-size: 40px;
+    font-weight :bolder;
+    color: #bd7821;
+    display:block;
+    height:250px;
+    
+  
+}
+ 
+
+/* HEADINGS   
+----------------------------------------------------------*/
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p{
+    margin:0;
+    padding:0;
+}
+
+
+/* Navigation 
+----------------------------------------------------------*/
+#navigation{
+    position: relative;
+    z-index: 2;
+   
+}
+ 
+#navigation li{
+     z-index: 2;
+}
+ 
+#navigation li a{
+    color: #e3e3e3;
+    font-size: 12px;
+    padding: 16px 0px 0px 0px;
+    text-decoration: none;
+}
+ 
+ 
+#navigation li a:hover, #navigation li#active a{
+    color: #bd7821;
+    text-decoration: none;
+    outline:none;
+}
+
+/* report 
+----------------------------------------------------------*/
+#report li a 
+{
+    color:white;
+    text-decoration:none; 
+}
+
+
+
+#report li a:hover, #report li#active a
+{
+    color:lime;
+    text-decoration:none;
+}
+
+
+
+ /* Layout rules */
+
+ equal {
+		display:table;
+		border-collapse:separate;}
+	
+	.row {
+		display:table-row;
+	}
+	.row div {
+		display:table-cell;
+	}
+	
+/* Styling rules to make the content look nicer */
+    .equal {
+		margin:10px auto;
+		border-spacing:10px;
+		width:80%;
+	}
+
+	.row div.one 
+	{
+	    width: 550px;
+        height:auto !important;
+        min-height:400px;
+        padding: 60px 36px 30px 31px;
+        border-style:solid;
+        border-width:5px;
+	}
+	.row div.two {
+		width:200px;
+		height:auto !important;
+        min-height:400px;
+        padding: 60px 36px 30px 31px;
+        border-style:solid;
+        border-width:5px;
+		 
+}
+
+.date 
+{
+   font-style:italic;
+   color:Lime;
+}
+
+ /* Footer
+----------------------------------------------------------*/
+
+ #footer{
+    width: 923px;
+    color: #a1a0a0;
+    font-size: 11px;
+    text-align:center;
+    padding: 30px 18px 30px 18px;
+}
+ 
+#page 
+{
+    border: solid 1px black;
+    margin: auto;
+    width: 1024px;
+    margin-top: 30px;    
+}
+
+#navigation ul 
+{
+    list-style: none;
+    display: inline;
+    margin: 0px;
+}
+
+#navigation ul li
+{
+}
+
+#navigation ul li a
+{
+    float: left;
+    border: black solid 1px;
+    background-color: brown;
+    display: block;
+    width: 144px;
+    height: 35px;
+    text-align: center;
+}
+
+#navigation ul li a#last_nav_link 
+{
+    width: 146px;
+}
+
+#content 
+{
+    float: left;
+    border: solid 1px black;
+}
+
+#footer 
+{
+    float: left;
+}
+
+.clear 
+{
+    clear: both;
+}
+
+#cart_table 
+{
+	border: solid black 1px;
+	width: 350px;
+}
+
+#cart_table tr td
+{
+	border: solid 1px black;
+}
+	
+#customer_info 
+{
+	border: solid 1px black;
+
+}	
+
+#customer_info tr
+{
+	border: solid 1px black;
+
+}	
+
+#customer_info td
+{
+	border: solid 1px black;
+
+}
+
+#side_nav 
+{
+	padding: 5px;
+	float: left;
+}
+
+#side_nav_header 
+{
+	margin-top: 1px;
+	margin-bottom: 5px;
+	padding: 0px;
+	border: 0px;
+	color: Black;
+}
+
+.side_nav_li a
+{
+	border: solid 1px black;
+	background: lime;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	cursor: pointer;
+	width: 100%;
+	display: block;
+}
+
+.side_nav_li a:hover
+{
+	background: cyan;
+}
+
+#products_panel 
+{
+    border-left: solid 1px black;
+	float: left;
+	width: 875px;
+	height: 400px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.product img 
+{
+	width: 100px;
+	height: 100px;
+}
+
+.product 
+{
+	padding: 5px;
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+	border: solid black 1px;	
+}
+
+.product .names 
+{
+	color:Black;
+	margin-top: 5px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.product .names a:hover
+{
+	cursor: pointer;
+	color: Blue;
+}
+
+.product_btn 
+{
+	width: 97px;
+	margin: auto;
+}
+
+a img 
+{
+	cursor: pointer;
+}
+
+#flash 
+{
+	border: 1px solid black;
+	background: red;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+ul#cart_nav 
+{
+	list-style:none;
+}
+
+#side_nav ul#cart_nav li#cart_nav_li a
+{
+	background: green;
+	color: White;
+}
+
+/* Forums styling */
+
+#forum_container 
+{
+	margin: auto;
+}
+
+#forums_table 
+{
+	width: 1000px;
+}
+
+#forums_table thead th
+{
+	text-align: left;
+}
+
+#forums_table thead th#first
+{
+	width: 200px;
+}
+
+#forums_table thead th#second
+{
+	width: 600px;
+}
