@@ -31,7 +31,7 @@
                     Dim game_date As String = ""
                     Dim set_up As String = ""
                     
-                        cmd.CommandText = "SELECT id, team, game_date FROM Game WHERE Year = '2012' LIMIT 5"
+                        cmd.CommandText = "SELECT id, team, game_date FROM Game WHERE Year = '2012'"
                     reader = cmd.ExecuteReader
                         Dim game_data As ArrayList = New ArrayList
                         
