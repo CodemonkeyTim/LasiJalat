@@ -58,3 +58,13 @@ C:\Users\Timo\Dropbox\Ohjelemointia\LJ\LJ_Lastest\LJ\obj\Debug\LJ.pdb
 C:\Users\Timo\Dropbox\Ohjelemointia\LJ\LJ_Lastest\LJ\bin\LJ.dll
 C:\Users\Timo\Dropbox\Ohjelemointia\LJ\LJ_Lastest\LJ\bin\LJ.pdb
 C:\Users\Timo\Dropbox\Ohjelemointia\LJ\LJ_Lastest\LJ\bin\LJ.xml
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\bin\LJ.dll
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\bin\LJ.pdb
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\bin\LJ.xml
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\obj\Debug\LJ.Resources.resources
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\obj\Debug\LJ.dll
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\obj\Debug\LJ.xml
+C:\Users\leehooi\Downloads\LJ_Lastest\LJ\obj\Debug\LJ.pdb
